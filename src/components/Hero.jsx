@@ -1,9 +1,13 @@
 import { curve, heroBackground, robot } from "../assets/";
 import Section from './Section';
 import Button from './Button';
-
+import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
+import { heroIcons } from "../constants";
+import { ScrollParallax } from "react-just-parallax";
+import { useRef } from "react";
 
 const Hero = () => {
+  const parallaxRef=useRef(null)
   return (
     <Section
       className="pt-[12rem] -mt-[5.25]"
@@ -13,13 +17,12 @@ const Hero = () => {
       id="hero"
     >
       <div
-        className='relative container'
+        className='relative container' ref={parallaxRef}
       >
         <div className='relative z-1 w-full max-auto text-center  mb-[4rem] md:mb-20 lg:mb-[6rem]'>
           <h1 className='h1 mb-6 pt-6'>
-            Explore the Possibilites of AI Chatting with
-            <span className='inline-block relative'>
-              Brainwave{" "}
+            Explore the Possibilites of AI <br /> Chatting with
+             <span className='inline-block relative'>&nbsp;Brainwave{" "}
               <img src={curve} alt="curve" 
               className='absolute top-full left-0 w-full xl:mt-2'
               height={28}
@@ -44,17 +47,30 @@ const Hero = () => {
                       width={1024}
                       height={490}
                     />
+
+                    <ScrollParallax isAbsolutelyPositioned>
+                      <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
+                        { heroIcons.map((icon,index)=>(
+                          <li className="p-5 " key={index}>
+                            <img src={icon} width={24} height={24} alt="icon" />
+                          </li>
+                        ))}
+                      </ul>
+                    </ScrollParallax>
                   </div>
               </div>
+
+              <Gradient />
           </div>
 
           <div className="absolute -top-[54%] left-1/2 w-full -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]"> 
-            <img src={ heroBackground } alt="" width={1440}
+            <img src={ heroBackground } alt="hero" width={1440}
                       height={1800} className="w-full"/>
           </div>
+          <BackgroundCircles></BackgroundCircles>
         </div>
-
       </div>
+      <BottomLine/>
     </Section>
   )
 }
