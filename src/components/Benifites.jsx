@@ -2,7 +2,8 @@ import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
-// import GradientLight from "./design/Benefits"
+import ClipPath from '../assets/svg/ClipPath';
+
 
 const Benifites = () => {
   return (
@@ -39,7 +40,18 @@ const Benifites = () => {
                 </div>
               </div>
 
-              {/* {item.light && <GradientLight></GradientLight>} */}
+              <div className="absolute inset-0.5 bg-n-8" style={{clipPath:"url(#benefits"}}>
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                  {item.imageUrl && (
+                    <img src={item.imageUrl} width={380} height={362} 
+                    className="w-full h-full object-cover"
+                    alt="" />
+                  )}
+                </div>
+              </div>
+
+              <ClipPath />
+             
             </div>
           ))}
         </div>
