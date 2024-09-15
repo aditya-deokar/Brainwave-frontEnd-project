@@ -6,6 +6,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*::selection{
+  background-color: rgb(141, 93, 209);
+}
+
 :root {
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
