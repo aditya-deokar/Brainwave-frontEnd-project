@@ -44,8 +44,8 @@ import {
     },
     {
       id: "1",
-      title: "Pricing",
-      url: "#pricing",
+      title: "collaboration",
+      url: "#collaboration",
     },
     {
       id: "2",

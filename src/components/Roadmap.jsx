@@ -3,6 +3,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
+import Button from "./Button";
 
 const Roadmap = () => {
   return (
@@ -68,7 +69,12 @@ const Roadmap = () => {
             );
           })}
         </div>
+
+        <Button className={"flex items-center justify-center"}>Roadmap</Button>
+        
       </div>
+
+      
     </Section>
   );
 };
