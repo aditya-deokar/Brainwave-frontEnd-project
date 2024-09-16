@@ -9,6 +9,7 @@
 
 *::selection{
   background-color: rgb(141, 93, 209);
+  color: white;
 }
 
 :root {
