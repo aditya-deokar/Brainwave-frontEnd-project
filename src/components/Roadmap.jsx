@@ -45,7 +45,7 @@ const Roadmap = () => {
                           width={16}
                         />
 
-                        <div className="tagline">{status}</div>
+                        <div className="font-normal uppercase text-black">{status}</div>
                       </div>
                     </div>
 
