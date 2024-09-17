@@ -70,7 +70,7 @@ const Roadmap = () => {
           })}
         </div>
 
-        <Button className={"flex items-center justify-center"}>Roadmap</Button>
+        <Button className={"absolute bottom-0 left-1/2 -translate-x-1/2 mt-5 "}>Roadmap</Button>
         
       </div>
 
