@@ -8,8 +8,14 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import CompanyLogos from "./CompanyLogos";
 
+
 const Hero = () => {
   const parallaxRef=useRef(null)
+
+
+
+
+
   return (
     <Section
       className="pt-[12rem] -mt-[5.25]"

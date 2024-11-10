@@ -1,12 +1,6 @@
-import ButtonGradient from "./assets/svg/ButtonGradient"
-import Benifites from "./components/Benifites";
-import Collaboration from "./components/Collaboration";
-import Footer from "./components/Footer";
-
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Roadmap from "./components/Roadmap";
-import Services from "./components/Services";
+
+import Router from "./router/Router";
 
 const App = () => {
 
@@ -15,17 +9,15 @@ const App = () => {
 
     <>
       
-      <div className="overflow-hidden">
+      <div className="relative">
         <Header />
-        <Hero />
-        <Benifites />
-        <Collaboration/>
-        <Services/>
-        <Roadmap/>
-        <Footer/>
-
       </div>
-      <ButtonGradient />
+      <Router />
+       
+       
+
+     
+      
 
     </>
 
