@@ -41,32 +41,38 @@ import {
       id: "0",
       title: "Features",
       url: "#features",
+      identifier: "/Brainwave-frontEnd-project/Features",
     },
     {
       id: "1",
       title: "collaboration",
       url: "#collaboration",
+      identifier: "/Brainwave-frontEnd-project/collaboration",
     },
     {
       id: "2",
       title: "How to use",
       url: "#how-to-use",
+      identifier: "/Brainwave-frontEnd-project/Howtouse",
     },
     {
       id: "3",
       title: "Roadmap",
       url: "#roadmap",
+      identifier: "/Brainwave-frontEnd-project/Roadmap",
     },
     {
       id: "4",
       title: "New account",
       url: "#signup",
+      identifier: "/Brainwave-frontEnd-project/signup",
       onlyMobile: true,
     },
     {
       id: "5",
       title: "Sign in",
       url: "#login",
+      identifier: "/Brainwave-frontEnd-project/login",
       onlyMobile: true,
     },
   ];
