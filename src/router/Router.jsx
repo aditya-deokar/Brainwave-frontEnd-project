@@ -18,7 +18,7 @@ const Router = () => {
 
      
         <Route
-           path="/Brainwave-frontEnd-project"
+           path="/"
           element={
             <TransitionComponent>
               <LandingPage />
@@ -26,7 +26,7 @@ const Router = () => {
           }
         />
         <Route
-          path="/Brainwave-frontEnd-project/Roadmap"
+          path="/Roadmap"
           element={
             <TransitionComponent>
               <Roadmap />
@@ -34,7 +34,7 @@ const Router = () => {
           }
         />
         <Route
-          path="/Brainwave-frontEnd-project/services"
+          path="/services"
           element={
             <TransitionComponent>
               <Services />
@@ -42,7 +42,7 @@ const Router = () => {
           }
         />
         <Route
-          path="/Brainwave-frontEnd-project/collaboration"
+          path="/collaboration"
           element={
             <TransitionComponent>
               <Collaboration />
@@ -50,7 +50,7 @@ const Router = () => {
           }
         />
         <Route
-          path="/Brainwave-frontEnd-project/Features"
+          path="/Features"
           element={
             <TransitionComponent>
               <Hero />
@@ -58,7 +58,7 @@ const Router = () => {
           }
         />
         <Route
-          path="/Brainwave-frontEnd-project/Howtouse"
+          path="/Howtouse"
           element={
             <TransitionComponent>
               <Benifites />
