@@ -5,7 +5,7 @@
 
 ### *Explore the Possibilities of AI Chatting with Brainwave*
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-6c63ff?style=for-the-badge)](https://portfolio-v1.aditya-deokar.me/)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-6c63ff?style=for-the-badge)](https://brainwave.aditya-deokar.me/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -148,7 +148,7 @@ Highlights AI capabilities like photo generation, photo enhancement, and seamles
 
 ## 🌐 Live Demo
 
-👉 **[https://portfolio-v1.aditya-deokar.me/](https://portfolio-v1.aditya-deokar.me/)**
+👉 **[https://brainwave.aditya-deokar.me/](https://brainwave.aditya-deokar.me/)**
 
 ---
 
